@@ -33,29 +33,29 @@ scss
 │   └── _b-Typography.scss
 ├── components
 │   └── {ComponentName}
-│           └── _c-{ComponentName}.scss
-│               └── _c-{ComponentChildName}.scss
+│       └── _c-{ComponentName}.scss
+│           └── _c-{ComponentChildName}.scss
 ├── elements
 │   └── {ElementName}
-│           └── _e-{ElementName}.scss
+│       └── _e-{ElementName}.scss
 ├── layout
 │   └── _la-{LayoutName}.scss
 ├── libs
 │   └── {LibName}
-│           └── _li-{LibName}.scss
+│       └── _li-{LibName}.scss
 ├── modules
 │   └── {ModuleName}
-│           └── _m-{ModuleName}.scss
-│               └── _m-{ModuleChildName}.scss
+│       └── _m-{ModuleName}.scss
+│           └── _m-{ModuleChildName}.scss
 ├── pages
 │   └── _p-{PageName}.scss
 ├── theme
 │   └── {Themename}
-│           └── {ThemeMode}
-│               └── _t-{ColorScheme}.scss
-│               └── _t-{Fonts}.scss
-│               └── _t-{Root}.scss
-│               └── _t-{Layout}.scss
+│       └── {ThemeMode}
+│           └── _t-{ColorScheme}.scss
+│           └── _t-{Fonts}.scss
+│           └── _t-{Root}.scss
+│           └── _t-{Layout}.scss
 ├── _shame.sccs
 ├── main.sccs
 ```
@@ -131,7 +131,7 @@ It is possible to pre-define some styles or variables sets to prepare theme for 
 
 `_shame.scss`
 
-Optional file. It would be used to store ugly styles tweak.
+Optional file. It would be used to store ugly styles tweak. A well coded app should have this file empty.
 
 `main.scss`
 
