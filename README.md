@@ -1,4 +1,4 @@
-![App Header](./static/images/app_readme-1024x.png)
+![App Header](./app_readme-1024x.png)
 
 # Quasar Sass Style Guide
 
@@ -144,7 +144,7 @@ In this section we will talk about Bundle, Component, descendant, part, modifier
 
 - **Bundle**
 
-In most of the project this will be absent, but if you want/need to, you can add bundle name in front of classname. Imho it reduces a lot class visibility buit is totally up to you.
+In most of the project this will be absent, but if you want/need to, you can add bundle name in front of class name. Imho it reduces a lot class visibility buit is totally up to you.
 
 
 - **Component**
@@ -259,7 +259,7 @@ These classes should never directly be styled they should always be used as an a
 </style>
 
 ```
-Each classname should have a prefix corresponding to the sass file it takes its source in.
+Each class name should have a prefix corresponding to the sass file it takes its source in.
 
 
 Let's resume :
