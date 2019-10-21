@@ -14,7 +14,9 @@ This style guide tries to stay as much compliant as possible with the current pr
 
 ## Basic Rules
 
-Reminder, this guide is supposed to be used as a reference but does not pretend at any time to be a pure source of truth. It is made to make scss code a bit more consistent and a bit more logic.
+Reminder, this guide is supposed to be used as a reference but does not pretend at any time to be a pure source of truth. It is made to make scss code a bit more consistent and a bit more logic. The goal is to make your life easier, if ever you arrive at a point when you are overthinking, or think it wastes more time than it is supposed to save, just code your own way.
+
+It is recommended to use a plugin such as beautify or prettier with your code editor to keep code nice and clean. A csscomb config file may be granted in this repo soon.
 
 ## Code organization
 
@@ -76,12 +78,13 @@ Gathers every keyframes animation so it can be used as a source of truth for eve
 
 Same as keyframes but for mixins.
 
+
+- **Base**
+
 `/base/_b-reset.scss`
 
 Resets major browser native styles (this file could also be called `_b-normalize.scss`).
 
-
-- **Base**
 
 `/base/_b-typography.scss`
 
