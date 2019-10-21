@@ -19,7 +19,7 @@ The following code structure is not made to be followed 100% as it is. It remain
 ```
 scss
 ├── assets
-│   └── _a-fonts.scss
+│   └── _a-fonts.scss                                   // Font faces, typekit, google fonts etc...
 │   └── _a-keyframes.scss
 ├── base
 │   └── _b-reset.scss
@@ -55,3 +55,4 @@ scss
 
 
 ## Naming
+
