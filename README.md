@@ -1,4 +1,4 @@
-![App Header](./app_readme-1024x.png)
+![App Header](./app_readme-1024x-light.png)
 
 # Quasar Sass Style Guide
 
